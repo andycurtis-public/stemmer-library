@@ -22,7 +22,7 @@ add_executable(test_stemmer  src/test_stemmer.c)
 list(APPEND TEST_EXECUTABLES test_stemmer)
 
 set_target_properties(test_stemmer PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
